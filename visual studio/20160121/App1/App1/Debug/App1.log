@@ -1,0 +1,32 @@
+﻿Build started 2016/1/26 21:23:24.
+     1>Project "G:\visual studio\20160121\App1\App1\App1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\software installation\2015827\visual studio 2013\VC\bin\CL.exe /c /I"G:\visual studio\20160121\App1\App1\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\App1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj pch.cpp
+         pch.cpp
+         E:\software installation\2015827\visual studio 2013\VC\bin\CL.exe /c /I"G:\visual studio\20160121\App1\App1\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\App1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj App.xaml.cpp MainPage.xaml.cpp "Generated Files\XamlTypeInfo.Impl.g.cpp"
+         App.xaml.cpp
+         MainPage.xaml.cpp
+         XamlTypeInfo.Impl.g.cpp
+       CreateWinMD:
+         E:\software installation\2015827\visual studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\visual studio\20160121\App1\Debug\App1\App1.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"G:\visual studio\20160121\App1\Debug\App1\App1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"G:\visual studio\20160121\App1\Debug\App1\App1.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\MainPage.xaml.obj
+         Debug\pch.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+       CompileXamlGeneratedFiles:
+         E:\software installation\2015827\visual studio 2013\VC\bin\CL.exe /c /I"G:\visual studio\20160121\App1\App1\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\App1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+       Link:
+         E:\software installation\2015827\visual studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\visual studio\20160121\App1\Debug\App1\App1.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"G:\visual studio\20160121\App1\Debug\App1\App1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"G:\visual studio\20160121\App1\Debug\App1\App1.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\MainPage.xaml.obj
+         Debug\pch.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+         Debug\XamlTypeInfo.g.obj
+            Creating library G:\visual studio\20160121\App1\Debug\App1\App1.lib and object G:\visual studio\20160121\App1\Debug\App1\App1.exp
+         App1.vcxproj -> G:\visual studio\20160121\App1\Debug\App1\App1.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x64\MakePri.exe New -ProjectRoot "G:\visual studio\20160121\App1\App1\\" -ConfigXml Debug\priconfig.xml -OutputFile "G:\visual studio\20160121\App1\Debug\App1\resources.pri" -IndexName 2033ada7-25a5-4413-9808-bf5b7d31f897 -Verbose -Overwrite  
+     1>Done Building Project "G:\visual studio\20160121\App1\App1\App1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.07

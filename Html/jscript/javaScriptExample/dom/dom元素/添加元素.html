@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>添加元素</title>
+</head>
+
+<body>
+<div id="div1">
+<p id="p1">这是一个段落。</p>
+<p id="p2">这是另外一个段落。</p>
+<button id="demo" type="button" onClick="myfunction()">点我</button>
+</div>
+<script>
+	function myfunction(){
+		var para=document.createElement("p");
+		var node=document.createTextNode("这是一个新建的段落");
+		para.appendChild(node);
+		
+		var x=document.getElementById("div1");
+		x.appendChild(para);
+		}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>function</title>
+</head>
+
+<body>
+	<p>这是一个段落</p>
+	<p id="demo"></p>
+	<script>
+	//计算输入的数的乘积
+	function fun(a,b){
+		return a*b;
+	}
+	document.getElementById("demo").innerHTML=fun(4,4);
+	</script>
+	<p>函数的表达式</p>
+	<p id="demo2"></p>
+	<script>
+	var x=function(x,y){
+		return x+y;
+	}
+	document.getElementById("demo2").innerHTML=x(2,4);
+	</script>
+</body>
+</html>

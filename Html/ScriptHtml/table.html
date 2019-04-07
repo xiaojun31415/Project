@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+        <script>
+		function validateForm() {
+    		var x = document.forms["myForm"]["fname"].value;
+   			 if (x == null || x == "") {
+        		alert("需要输入名字。");
+        		return false;
+    		}
+			else{
+			alert("你输入的是名字")	
+			}
+		}
+		function EamilVailed(){
+			var x = document.forms["myForm1"]["email"].value;
+			var atpos = x.indexOf("@");
+			var doatpos=x.indexOf(".");
+			if (atpos<1 || doatpos<atpos+2 || doatpos+2>=x.length)
+			{
+				alert("不是一个有效的 e-mail 地址");
+  				return false;
+			}
+			else
+			{
+				alert("输入的是一个Eamil 地址");
+				return true;
+			}
+		}
+		</script>
+	</head>
+	<body>   
+		<!--这是一个简单的表单验证-->
+		<form name="myForm" onsubmit="return validateForm()" method="post">
+			<p> 名字</p>
+            <input type="text" name="fname">
+			<input type="submit" value="提交">
+		</form>
+        <form name="myForm1" onsubmit="EamilVailed()" method="post">
+		Email: <input type="text" name="email">
+			   <input type="submit" value="提交">
+		</form>
+
+	</body>
+</html>

@@ -1,0 +1,6 @@
+G:\visual studio\C#\TestArray\TestArray\bin\Debug\TestArray.exe.config
+G:\visual studio\C#\TestArray\TestArray\bin\Debug\TestArray.exe
+G:\visual studio\C#\TestArray\TestArray\bin\Debug\TestArray.pdb
+G:\visual studio\C#\TestArray\TestArray\obj\Debug\TestArray.csprojResolveAssemblyReference.cache
+G:\visual studio\C#\TestArray\TestArray\obj\Debug\TestArray.exe
+G:\visual studio\C#\TestArray\TestArray\obj\Debug\TestArray.pdb

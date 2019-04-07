@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>添加不同的事件类型</title>
+</head>
+
+<body>
+<p>添加不同的事件类型的案例</p>
+<button id="btn" type="button">点击</button>
+<p id="demo"></p>
+<br>
+<script>
+var x = document.getElementById("btn");
+x.addEventListener("mouseover", myFunction);
+x.addEventListener("click", mySecondFunction);
+x.addEventListener("mouseout", myThirdFunction);
+function myFunction() {
+    document.getElementById("demo").innerHTML += "Moused over!<br>"
+}
+function mySecondFunction() {
+    document.getElementById("demo").innerHTML += "Clicked!<br>"
+}
+function myThirdFunction() {
+    document.getElementById("demo").innerHTML += "Moused out!<br>"
+}
+</script>
+</body>
+</html>

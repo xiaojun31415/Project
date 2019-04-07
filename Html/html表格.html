@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表格</title>
+</head>
+
+<body>
+	<table border="1">
+		<!--可以视为表格的标题，使用caption标签实现-->
+		<caption>表名</caption>
+		<!---tr 是table row的缩写，也就是每一行的意思-->
+		<tr>
+			<!--th 是table heading的缩写，所以每个表格的标题，可以使用th来实现-->
+		  <th>Name</th>
+		  <th>Telephone</th>
+		  <th>Telephone</th>
+		</tr>
+		<tr>
+			<!--td 是table data的缩写，代表表格的数据-->
+		  <td>Bill Gates</td>
+		  <td>555 77 854</td>
+		  <td>555 77 855</td>
+		</tr>
+	</table>
+	<table border="1">
+    <tr>
+        <td>row 1, cell 1</td>
+        <td>row 1, cell 2</td>
+    </tr>
+    <tr>
+        <td>row 2, cell 1</td>
+        <td>row 2, cell 2</td>
+    </tr>
+</table>
+	<table border="1">
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+    </tr>
+    <tr>
+        <td>row 1, cell 1</td>
+        <td>row 1, cell 2</td>
+    </tr>
+    <tr>
+        <td>row 2, cell 1</td>
+        <td>row 2, cell 2</td>
+    </tr>
+</table>
+	<h4>单元格跨两列:</h4>
+<table border="1">
+<tr>
+  <th>First Name:</th>
+  <td>Bill Gates</td>
+</tr>
+<tr>
+  <th rowspan="2">Telephone:</th>
+  <td>555 77 854</td>
+</tr>
+<tr>
+  <td>555 77 855</td>
+</tr>
+</table>
+	<h4>单元格跨两格:</h4>
+<table border="1">
+<tr>
+  <th>Name</th>
+  <th colspan="2">Telephone</th>
+</tr>
+<tr>
+  <td>Bill Gates</td>
+  <td>555 77 854</td>
+  <td>555 77 855</td>
+</tr>
+</table>
+</body>
+</html>

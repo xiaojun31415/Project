@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>添加多个事件句柄</title>
+</head>
+
+<body>
+<p>添加多个事件的句柄的案例</p>
+<button id="sa" type="button">点我</button>
+<script>
+var x=document.getElementById("sa");
+x.addEventListener("click",fun1);
+x.addEventListener("click",fun2);
+
+function fun1(){
+	alert("this is first event");
+	}
+function fun2(){
+	alert("this is second event");
+	}
+</script>
+</body>
+</html>

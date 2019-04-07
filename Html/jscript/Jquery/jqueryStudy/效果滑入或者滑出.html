@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jquery的效果，淡淡划入或者滑出</title>
+<script src="../jquery-3.3.1/jquery-3.3.1.min.js" type="text/jscript"></script>
+<style type="text/css">
+p{
+	font-size:24px;
+	border-style:dashed;
+	}
+p.tt{
+	background-color:yellow;}
+</style>
+<script>
+$(document).ready(function(e) {
+    $("#btn1").click(function(){
+		$("#div1").fadeIn("fast");
+		$("#div2").fadeIn("slow");
+		$("#div3").fadeIn(2000);
+		});
+		
+	$("#btnfadeout").click(
+	function(){
+		$("#div1").fadeOut("fast");
+		$("#div2").fadeOut("slow");
+		$("#div3").fadeOut(2000);
+		});
+	
+	$("#btnfadeToggle").click(
+	function(){
+		$("#div1").fadeToggle("fast");
+		$("#div2").fadeToggle("slow");
+		$("#div3").fadeToggle(2000);
+		});
+	$("#btnfadeTo").click(
+	function(){
+		$("#div1").fadeTo("fast",0.15);
+		$("#div2").fadeTo("slow",0.8);
+		$("#div3").fadeTo(2000,0.9);
+		});
+	});
+
+</script>
+</head>
+
+<body>
+<p>fadein的隐藏效果测试（淡淡的弹出）</p>
+<button id="btn1" type="button">点击</button>
+<div id="div1" style="width:40px;height:40px;background-color:red;display:none;"></div><br>
+<div id="div2" style="width:40px;height:40px;background-color:green;display:none;"></div><br>
+<div id="div3" style="width:40px;height:40px;background-color:blue;display:none;"></div><br>
+<p class="tt">fadeout淡淡的消失效果</p>
+<button id="btnfadeout" type="button">fadeout测试</button>
+
+<p>fadeout淡淡的消失效果</p>
+<button id="btnfadeToggle" type="button">fadeToggle测试</button>
+
+<p>fadeTo的效果</p>
+<button id="btnfadeTo" type="button">fadeTo测试</button>
+</body>
+</html>

@@ -1,0 +1,4 @@
+G:\visual studio\C#\importExcel\importExcel\obj\Debug\importExcel.csprojResolveAssemblyReference.cache
+G:\visual studio\C#\importExcel\importExcel\obj\Debug\importExcel.Form1.resources
+G:\visual studio\C#\importExcel\importExcel\obj\Debug\importExcel.Properties.Resources.resources
+G:\visual studio\C#\importExcel\importExcel\obj\Debug\importExcel.csproj.GenerateResource.Cache

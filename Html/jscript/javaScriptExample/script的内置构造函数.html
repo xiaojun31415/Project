@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>javascript的内置构造函数</title>
+</head>
+
+<body>
+	<p>JavaScrip 内置构造函数。</p>
+	<p id="demo"></p>
+	<p id="demo2"></p>
+<script>
+	var myFunction = new Function("a","b","return a*b");
+	document.getElementById("demo").innerHTML=myFunction(2,5);
+	(function fun(){
+		document.getElementById("demo2").innerHTML="Hello! 我是自己调用的";
+	})();
+</script>
+	
+<p> arguments.length 属性返回函数接收到参数的个数：</p>
+<p id="demo3"></p>
+<script>
+function myFunction(a, b) {
+    return arguments.length;
+}
+document.getElementById("demo3").innerHTML = myFunction(4, 3);
+</script>
+	<p>toString() 方法将函数作为一个字符串返回:</p>
+	<p id="demo4"></p>
+<script>
+function myFunction(a, b) {
+    return a * b;
+}
+document.getElementById("demo4").innerHTML = myFunction.toString();
+</script>
+<p>箭头函数不需要使用 function、return 关键字及大括号 {}。</p>
+
+<p>IE11 及更早 IE 版本不支持箭头函数。</p>
+
+<p id="demo5"></p>
+
+<script>
+const x = (x, y) => x * y;
+document.getElementById("demo5").innerHTML = x(5, 5);
+</script>
+</body>
+</html>

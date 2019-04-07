@@ -1,0 +1,11 @@
+E:\GITHUB\Project\Csharp\MyApp\bin\Debug\netcoreapp2.2\MyApp.deps.json
+E:\GITHUB\Project\Csharp\MyApp\bin\Debug\netcoreapp2.2\MyApp.runtimeconfig.json
+E:\GITHUB\Project\Csharp\MyApp\bin\Debug\netcoreapp2.2\MyApp.runtimeconfig.dev.json
+E:\GITHUB\Project\Csharp\MyApp\bin\Debug\netcoreapp2.2\MyApp.dll
+E:\GITHUB\Project\Csharp\MyApp\bin\Debug\netcoreapp2.2\MyApp.pdb
+E:\GITHUB\Project\Csharp\MyApp\obj\Debug\netcoreapp2.2\MyApp.csprojAssemblyReference.cache
+E:\GITHUB\Project\Csharp\MyApp\obj\Debug\netcoreapp2.2\MyApp.csproj.CoreCompileInputs.cache
+E:\GITHUB\Project\Csharp\MyApp\obj\Debug\netcoreapp2.2\MyApp.AssemblyInfoInputs.cache
+E:\GITHUB\Project\Csharp\MyApp\obj\Debug\netcoreapp2.2\MyApp.AssemblyInfo.cs
+E:\GITHUB\Project\Csharp\MyApp\obj\Debug\netcoreapp2.2\MyApp.dll
+E:\GITHUB\Project\Csharp\MyApp\obj\Debug\netcoreapp2.2\MyApp.pdb

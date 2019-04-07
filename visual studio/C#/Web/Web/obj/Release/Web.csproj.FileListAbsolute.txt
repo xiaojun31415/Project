@@ -1,0 +1,6 @@
+G:\visual studio\C#\Web\Web\bin\Web.dll.config
+G:\visual studio\C#\Web\Web\bin\Web.dll
+G:\visual studio\C#\Web\Web\bin\Web.pdb
+G:\visual studio\C#\Web\Web\obj\Release\Web.csprojResolveAssemblyReference.cache
+G:\visual studio\C#\Web\Web\obj\Release\Web.dll
+G:\visual studio\C#\Web\Web\obj\Release\Web.pdb

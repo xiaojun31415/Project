@@ -1,2 +1,2 @@
-# project
-personal project
+# Project
+personal projec

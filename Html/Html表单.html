@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表单</title>
+</head>
+	
+<body>
+	
+	<from target="_blank" action="/table/table.html" method="get">
+		<label for="textfield">Text information</label>
+		<br>
+		<label>first name</label>
+		<input type="text" name="firstname" >
+		<br>
+		<label>last nama</label>
+		<input type="text" name="lastname">
+		<br>
+		<label>user name</label>
+		<input type="text" name="username">
+		<br>
+		<label>password</label>
+		<input type="password" name="userpassword">
+		<br>
+		<labe>性别</labe>
+		<input type="radio" name="sex" value="Male">
+		<input type="radio" name="sex" value="Female">
+		<br>
+		<label>复选框</label>
+		<input type="checkbox" name="vehicle" value="Car">
+		<label>Car</label>
+		<input type="checkbox" name="vehical" value="bike">
+		<label>bike</label>
+		<input type="submit" value="submit">
+	</from>
+	<p><b>注意：</b> 表单本身是不可见的。并且注意一个文本字段的默认宽度是20个字符。</p>
+	
+	<h3>发送邮件到 someone@example.com:</h3>
+
+<form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="your name"><br>
+E-mail:<br>
+<input type="text" name="mail" value="your email"><br>
+Comment:<br>
+<input type="text" name="comment" value="your comment" size="50"><br><br>
+<input type="submit" value="发送">
+<input type="reset" value="重置">
+</form>
+</body>
+</html>

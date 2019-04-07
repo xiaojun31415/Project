@@ -1,0 +1,1 @@
+G:\visual studio\C#\findNumber\findNumber\bin\Debug\findNumber.exe.config

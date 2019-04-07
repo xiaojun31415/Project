@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>函数参数的传递</title>
+</head>
+
+<body>
+<p>实例演示了在使用 addEventListener() 方法时如何传递参数。</p>
+<p>点击按钮执行计算。</p>
+<button id="myBtn" type="button">点我</button>
+<p id="demo"></p>
+<script>
+var x=document.getElementById("myBtn");
+var p1="hello";
+var p2="world"
+x.addEventListener("click",function(){myfunction(p1,p2);});
+function myfunction(p1,p2){
+	document.getElementById("demo").innerHTML=p1+p2;
+	}
+</script>
+</body>
+</html>

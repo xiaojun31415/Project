@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Video</title>
+</head>
+
+<body>
+   <div style="text-align:center">
+   <button onclick="playPause()">paly/pause</button>
+   <button onclick="makebig()">big</button>
+   <button onclick="makesamll()" >缩小</button>
+   <button onclick="makeNormal()">普通</button>
+   <br>
+   <video id="video1" controls>
+   <source src="video/mov_bbb.mp4" type="video/mp4">
+   </video>
+   </div>
+   <script>
+   var videoId=document.getElementById('video1');
+   
+   function playPause(){
+	   if(videoId.paused)
+	   		videoId.play();
+		else
+			videoId.pause();
+	   }
+	   
+	function makebig(){
+		 videoId.width=560;
+		 }
+	function makesamll(){
+		 videoId.width=320;
+		 }
+	function makeNormal(){
+		videoId.width=420;
+		}
+   </script>
+
+</body>
+</html>

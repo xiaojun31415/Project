@@ -1,0 +1,29 @@
+<!-- this is javaScript language-->
+<!DOCUTYPE HTML>
+<html>
+<head>
+<script src="./JavaScript/image.js"></script>
+<title>
+
+this is a sample web
+</title>
+</head>
+<body>
+	<p>this is a first paragraph</p>
+	<p id="IdText">this is test location</p>
+	<button type="button" onclick="myclickOnButton()">clickTest</button>
+	</br>
+<script>
+	document.write("this is script output");
+	document.write("</br>");
+	document.write(Date());
+</script>
+<script>
+	function myclickOnButton(){
+		document.getElementById("IdText").innerHTML="this is javaSCript";
+	}	
+</script>
+</br>
+<img id="imageID" onclick="changeImage()" src="./image/light/pic_bulbon.gif"></img>
+</body>
+</html>
