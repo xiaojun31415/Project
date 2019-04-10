@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>在元素的开头插入内容</title>
+<script src="../jquery-3.3.1/jquery-3.3.1.js" type="text/jscript"></script>
+<script>
+$(document).ready(function(e) {
+    $("#btn1").click(function(){
+			$("p").prepend("<b>在开头追加文本</b>。" );
+		});
+	$("#btn2").click(function(){
+			$("ol").prepend("<li>新添加的</li>" );
+		});
+});
+</script>
+</head>
+
+<body>
+<p>这是一个段落。</p>
+<p>这是另外一个段落。</p>
+<ol>
+<li>列表 1</li>
+<li>列表 2</li>
+<li>列表 3</li>
+</ol>
+<button id="btn1">添加文本</button>
+<button id="btn2">添加列表项</button>
+</body>
+</html>

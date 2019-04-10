@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML获取值</title>
+<script src="../jquery-3.3.1/jquery-3.3.1.js" type="text/jscript"></script>
+<script>
+$(document).ready(function(e) {
+    $("button").click(function(){
+			alert("文本框的值是"+$("#test").val());
+		});
+});
+</script>
+</head>
+
+<body>
+<p>名称: <input type="text" id="test" value="菜鸟教程"></p>
+<button>显示值</button>
+</body>
+</html>
