@@ -6,13 +6,16 @@
 <script src="../../jquery-3.3.1/jquery-3.3.1.js" type="text/jscript"></script>
 <script>
 $(document).ready(function(e) {
-    $("button").click(
+    $("#btn1").click(
 		function(){
 			$.get("ajaxload3.html",function(data,status){
 				alert("数据: " + data + "\n状态: " + status); 
 				})
 			}
 	);
+	$("#btn2").click(function(){
+			$("#div2").load("ajaxload3.html #p1")
+		});
 });
 
 </script>
@@ -20,6 +23,9 @@ $(document).ready(function(e) {
 
 <body>
 <div id="div1"><h1>这是一个标题</h1></div>
-<button>发送一个HTTP协议的get请求</button>
+<div id="div2"><h1>this is a div 2</h1></div>
+<button id="btn1">发送一个HTTP协议的get请求</button>
+<br>
+<button id="btn2">click2</button>
 </body>
 </html>
