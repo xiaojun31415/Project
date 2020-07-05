@@ -1,4 +1,3 @@
-
 echo off
-"C:\Program Files\Git\cmd\git.exe" pull origin master
+git pull origin master
 pause
